@@ -1,0 +1,10 @@
+
+ƒ	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì°¤ğ8¤¸şü¼0HÎRMINORZ
+CODE_SMELL
+x	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(À˜8¤¸şü¼0HÏRMAJORZ
+CODE_SMELL
+b
+java:S1172	"/Remove this unused method parameter "Password".(Ì°¤ğ8¤¸şü¼0HĞRMAJORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–ÑÂÓşÿÿÿÿHÒRMINORZ
+CODE_SMELL

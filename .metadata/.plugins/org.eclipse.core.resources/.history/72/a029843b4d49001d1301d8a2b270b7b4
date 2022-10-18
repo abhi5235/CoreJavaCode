@@ -1,0 +1,22 @@
+package com.Practice;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class MainClass {
+public static void main(String[] args) {
+	Player p1=new Player("Rohit", 53);
+	Player p2=new Player("Rahul", 46);
+	Player p3=new Player("SKY", 35);
+	Player p4=new Player("Virat", 50);
+	Player p5=new Player("DK", 29);
+	Set<Player> hset=new HashSet<>();
+	hset.add(p1);
+	hset.add(p2);
+	hset.add(p3);
+	hset.add(p4);
+	hset.add(p5);
+	System.out.println(hset);
+	
+}
+}

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Copy 0 elements to &apos;CollectioAPI/src/com.Hash&apos;&#x0D;&#x0A;- Destination element: &apos;CollectioAPI/src/com.Hash&apos;" description="Copy compilation units" destination="=CollectioAPI/src&lt;com.Hash" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1665483160632" units="0" version="1.0"/>&#x0A;<refactoring comment="Delete resource &apos;Property&apos;" deleteContents="true" description="Delete resource &apos;Property&apos;" element1="/Property" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1665568547485"/>
+</session>

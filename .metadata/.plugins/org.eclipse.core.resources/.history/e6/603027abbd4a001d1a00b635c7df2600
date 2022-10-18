@@ -1,0 +1,42 @@
+package com.Logger;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+public class DrivingLicenceDemo {
+	private String name;
+	private int age;
+	private int policeverification;
+	private int medicheck;
+Log logger=LogFactory.getLog(DrivingLicenceDemo.class);
+
+@Override
+public String toString() {
+	return "DrivingLicenceDemo [name=" + name + ", age=" + age + ", policeeverification=" + policeverification
+			+ ", medicheck=" + medicheck + ", logger=" + logger + "]";
+}
+
+public void ageverification() {
+	if(age>18) {
+		System.out.println("You are eligible for DL");
+	}
+	else
+	{
+		System.out.println("you are not eligible for DL");
+		logger.info("your age not 18");
+		throw new RuntimeException("you are not eligible");
+	}
+}
+	public void policeverifi() {
+		if(policeverification==0) {
+			System.out.println("Police Verification is done");
+		}
+		else {
+			System.out.println("You are not verified");
+			logger.info("Your verification not verified");
+			throw new RuntimeException();
+		}
+	}
+}
+
+}

@@ -1,0 +1,21 @@
+package com.Logger;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+public class MainClassDL {
+static Log logger=LogFactory.getLog(MainClassDL.class);
+	public static void main(String[] args) {
+DrivingLicenceDemo dl=new DrivingLicenceDemo("Abhishek", 20, 0, 0);
+try {
+	dl.ageverification();
+	dl.policeverifi();
+	dl.medicheck();
+	System.out.println(dl);
+} catch (Exception e) {
+	logger.error("error occur while applying driving licence for "+dl.getName());
+}
+
+	}
+
+}

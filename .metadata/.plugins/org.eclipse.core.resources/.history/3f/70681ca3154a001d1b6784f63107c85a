@@ -1,0 +1,11 @@
+package com.Properties;
+
+import org.apache.commons.configuration2.builder.fluent.Configurations;
+
+public class Properties {
+
+	public static void main(String[] args) {
+Configurations 
+	}
+
+}

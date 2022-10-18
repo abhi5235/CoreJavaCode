@@ -1,0 +1,21 @@
+package com.streamDemo;
+
+import java.util.ArrayList;
+import java.util.List;
+public class Demo {
+
+	public static void main(String[] args) {
+		Employee e1=new Employee(111,"Abhishek",100000);
+		Employee e2=new Employee(112,"Rahul",200000);
+		Employee e3=new Employee(113,"Deepak",300000);
+		Employee e4=new Employee(114,"Anubhav",145000);
+		List<Employee>list=new ArrayList<>();
+		list.add(e1);
+		list.add(e2);
+		list.add(e3);
+		list.add(e4);
+		List<Employee> newList=list.stream().filter((e)->e.getSalary(e>15000)))).collect(Collectors.toList()));
+		System.out.println(newList);
+	}
+
+}

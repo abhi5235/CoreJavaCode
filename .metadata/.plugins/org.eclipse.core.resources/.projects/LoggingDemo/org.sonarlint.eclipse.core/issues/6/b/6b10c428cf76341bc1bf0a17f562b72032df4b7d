@@ -1,0 +1,21 @@
+
+x	java:S112X"FDefine and throw a dedicated exception instead of using a generic one.(ñ¦´8§¨éÿ¼0H•RMAJORZ
+CODE_SMELL
+p	java:S106>"9Replace this use of System.out or System.err by a logger.(¥Ç½²øÿÿÿÿ8ß”Ûÿ¼0H’RMAJORZ
+CODE_SMELL
+k	java:S106I"9Replace this use of System.out or System.err by a logger.(íÁà8ß”Ûÿ¼0H“RMAJORZ
+CODE_SMELL
+p	java:S106S"9Replace this use of System.out or System.err by a logger.(ÓƒÄÁıÿÿÿÿ8§¨éÿ¼0H—RMAJORZ
+CODE_SMELL
+x	java:S112N"FDefine and throw a dedicated exception instead of using a generic one.(ñ¦´8ß”Ûÿ¼0HRMAJORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–ÑÂÓşÿÿÿÿHúRMINORZ
+CODE_SMELL
+x	java:S112D"FDefine and throw a dedicated exception instead of using a generic one.(šğ©á8ß”Ûÿ¼0HRMAJORZ
+CODE_SMELL
+p	java:S106B"9Replace this use of System.out or System.err by a logger.(¯ÿœ’ÿÿÿÿÿ8ß”Ûÿ¼0H‘RMAJORZ
+CODE_SMELL
+p	java:S106L"9Replace this use of System.out or System.err by a logger.(Ğ–ò»ûÿÿÿÿ8§¨éÿ¼0H–RMAJORZ
+CODE_SMELL
+p	java:S106V"9Replace this use of System.out or System.err by a logger.(Ü­Äøÿÿÿÿ8ß”Ûÿ¼0H”RMAJORZ
+CODE_SMELL

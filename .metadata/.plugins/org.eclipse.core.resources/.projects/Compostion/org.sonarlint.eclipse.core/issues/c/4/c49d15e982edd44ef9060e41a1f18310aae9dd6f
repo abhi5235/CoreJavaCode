@@ -1,0 +1,11 @@
+
+—
+java:S4165	"dRemove this useless assignment; "engine" already holds the assigned value along all execution paths.(Ùé×8¼ñ±’»0HÌRMAJORZ
+CODE_SMELL
+–
+java:S4165"cRemove this useless assignment; "carId" already holds the assigned value along all execution paths.(Ñû‘8¼ñ±’»0HÍRMAJORZ
+CODE_SMELL
+[
+java:S1656	"/Remove or correct this useless self-assignment.(Ùé×8¼ñ±’»0HÎRMAJORZBUG
+[
+java:S1656"/Remove or correct this useless self-assignment.(Ñû‘8¼ñ±’»0HÏRMAJORZBUG

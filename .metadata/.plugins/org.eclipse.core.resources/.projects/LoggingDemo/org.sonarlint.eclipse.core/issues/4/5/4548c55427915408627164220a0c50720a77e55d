@@ -1,0 +1,14 @@
+
+k	java:S106"9Replace this use of System.out or System.err by a logger.(¸ÚÙÇ8ß¡€½0HRMAJORZ
+CODE_SMELL
+k	java:S1062"9Replace this use of System.out or System.err by a logger.(¥¼¦¥8‘õú€½0H¦RMAJORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–ÑÂÓşÿÿÿÿH™RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(™›Ëšşÿÿÿÿ8‘õú€½0H¤RMAJORZ
+CODE_SMELL
+¦
+java:S1192"pDefine a constant instead of duplicating this literal "error occur while applying driving licence for " 5 times.(¥ÓË€8‘õú€½0HRCRITICALZ
+CODE_SMELL
+k	java:S106!"9Replace this use of System.out or System.err by a logger.(Ò…¥Š8‘õú€½0H¥RMAJORZ
+CODE_SMELL

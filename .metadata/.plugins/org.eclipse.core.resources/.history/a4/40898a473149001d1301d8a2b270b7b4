@@ -1,0 +1,17 @@
+package com.streamDemo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MainClass {
+public static void main(String[] args) {
+	List<String> list=new ArrayList<>();
+	list.add("Abhishek");
+	list.add("Anubhav");
+	list.add("Swasti");
+	list.add("Deepak");
+	list.add("Lalu");
+	
+	List<String> newList=list.stream().filter(e)->())
+}
+}

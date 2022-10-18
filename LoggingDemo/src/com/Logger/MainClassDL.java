@@ -1,0 +1,55 @@
+package com.Logger;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+public class MainClassDL {
+	static Log logger = LogFactory.getLog(MainClassDL.class);
+
+	public static void main(String[] args) {
+		DrivingLicenceDemo dl = new DrivingLicenceDemo("Abhishek", 20, 0, 1);
+		try {
+			dl.ageverification();
+			dl.policeverifi();
+			dl.medicheck();
+			System.out.println(dl);
+		} catch (Exception e) {
+			logger.error("error occur while applying driving licence for " + dl.getName());
+		}
+		DrivingLicenceDemo dL1 = new DrivingLicenceDemo("Rohit", 22, 0, 0);
+		try {
+			dL1.ageverification();
+			dL1.policeverifi();
+			dL1.medicheck();
+			System.out.println(dL1);
+		} catch (Exception e) {
+			logger.error("error occur while applying driving licence for " + dL1.getName());
+		}
+		DrivingLicenceDemo dL2 = new DrivingLicenceDemo("Robin", 17, 0, 0);
+		try {
+			dL2.ageverification();
+			dL2.policeverifi();
+			dL2.medicheck();
+			System.out.println(dL2);
+		} catch (Exception e) {
+			logger.error("error occur while applying driving licence for " + dL2.getName());
+		}
+		DrivingLicenceDemo dL3 = new DrivingLicenceDemo("Harshit", 23, 0, 0);
+		try {
+			dL3.ageverification();
+			dL3.policeverifi();
+			dL3.medicheck();
+		} catch (Exception e) {
+			logger.error("error occur while applying driving licence for " + dL3.getName());
+		}
+		DrivingLicenceDemo dL4 = new DrivingLicenceDemo("Vikas", 20, 1, 0);
+		try {
+			dL4.ageverification();
+			dL4.policeverifi();
+			dL4.medicheck();
+			System.out.println(dL4);
+		} catch (Exception e) {
+			logger.error("error occur while applying driving licence for " + dL4.getName());
+		}
+	}
+}

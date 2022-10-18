@@ -1,0 +1,23 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(©àš…ùÿÿÿÿHÚRMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(öï¼ú8®Ëîˆ»0HôRMAJORZ
+CODE_SMELL
+[
+java:S1481"(Remove this unused "num" local variable.(ø˜©Ç8®Ëîˆ»0HğRMINORZ
+CODE_SMELL
+r
+java:S3518"CMake sure this expression can't be zero before doing this division.(ø˜©Ç8®Ëîˆ»0HîRCRITICALZBUG
+Œ
+java:S1488"YImmediately return this expression instead of assigning it to the temporary variable "e".(Àøİá8®Ëîˆ»0HëRMINORZ
+CODE_SMELL
+j
+java:S1854"7Remove this useless assignment to local variable "num".(ø˜©Ç8®Ëîˆ»0HïRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿîà›8®Ëîˆ»0HòRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ÂÌüÿÿÿÿ8®Ëîˆ»0HóRMAJORZ
+CODE_SMELL
+e
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ğÚâŠ»0HRMINORZ
+CODE_SMELL

@@ -1,0 +1,5 @@
+package com.PracticeDemo;
+
+public interface Bonus {
+ int bonus=5000;
+}

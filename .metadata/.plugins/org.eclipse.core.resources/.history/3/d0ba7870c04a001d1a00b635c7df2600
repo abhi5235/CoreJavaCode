@@ -1,0 +1,13 @@
+package com.Logger;
+
+public class MainClassDL {
+
+	public static void main(String[] args) {
+DrivingLicenceDemo dl=new DrivingLicenceDemo("Abhishek", 20, 0, 0);
+dl.ageverification();
+dl.policeverifi();
+dl.medicheck();
+System.out.println(dl);
+	}
+
+}

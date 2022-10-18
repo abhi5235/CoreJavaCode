@@ -1,0 +1,9 @@
+
+
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "lion".(şÍˆ‘8Ä”‘»0H¯RMINORZ
+CODE_SMELL
+r
+java:S1161":Add the "@Override" annotation above this method signature(‰Ï¦ÿÿÿÿÿ8Ä”‘»0H²RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(µÊñêüÿÿÿÿ8Ä”‘»0H´RMAJORZ
+CODE_SMELL

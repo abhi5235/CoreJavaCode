@@ -1,0 +1,18 @@
+package com.Logger;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class DrivingLicenceDemoTest {
+
+	@Test
+	void EligilbleDLtest() {
+		DrivingLicenceDemo d1=new DrivingLicenceDemo("Abhishek", 20, 0, 1);
+		d1.ageverification();
+		d1.policeverifi();
+		d1.medicheck();
+		
+	}
+
+}

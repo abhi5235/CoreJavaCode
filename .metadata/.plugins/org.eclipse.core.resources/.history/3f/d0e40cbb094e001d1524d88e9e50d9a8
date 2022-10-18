@@ -1,0 +1,22 @@
+package com.Assign;
+
+import java.util.TreeMap;
+
+public class MainTree {
+
+	public static void main(String[] args) {
+		Employee e = new Employee(11, "Abhishek", 20000);
+		Employee e1 = new Employee(12, "Rohit", 25000);
+		Employee e2 = new Employee(13, "Sarthak", 30000);
+		Employee e3 = new Employee(14, "Aryan", 35000);
+		Employee e4 = new Employee(15, "Ayush", 40000);
+		TreeMap<Employee, String> tree = new TreeMap<>((x, y) -> x.getSalary() - y.getSalary());
+		tree.put(e, "Telus");
+		tree.put(e1, "TCS");
+		tree.put(e2, "Google");
+		tree.put(e3, "ALT Digital");
+		tree.put(e4, "Infosys");
+		System.out.println(tree);
+	}
+
+}
